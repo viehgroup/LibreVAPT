@@ -1,23 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 22 21:29:38 2019
-
-@author: Daniel Lin, Seahymn
-
-"""
 
 import os
 import yaml
 import argparse
 from keras import backend as K 
-
-"""
-Train and test using the default settings:
-
-Training mode: 'Python main.py --config config\config.yaml'
-Test mode: 'Python main.py --config config\config.yaml --test --trained_model D:\Path\of\the\trained_model.h5'
-
-"""
 
 # GPU support is recommended.
 os.environ["CUDA_VISIBLE_DEVICES"]="0"

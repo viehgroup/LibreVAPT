@@ -1,15 +1,10 @@
 # Function-level Vulnerability Detection and Dataset
 
-Hi there, welcome!
 
-This is an open-source project for function-level vulnerability detection. We use the source code functions as inputs and implement Word2vec for generating code embeddings. The output is a probability of the corresponding input sample being vulnerable or not. This project includes 6 mianstream neural network models and can be easily extended to use other network models implemented using Keras or Tensorflow.    
+This is an open-source project (forked from [here](https://github.com/Seahymn2019/Function-level-Vulnerability-Dataset)) We use the source code functions as inputs and implement Word2vec for generating code embeddings. The output is a probability of the corresponding input sample being vulnerable or not. This project includes 6 mianstream neural network models and can be easily extended to use other network models implemented using Keras or Tensorflow.    
 
 For this project, we also collect vulnerable functions from 9 open-source software projects (written in C programming language). See [Dataset](https://github.com/Seahymn2019/Function-level-Vulnerability-Dataset/blob/master/Vulnerable%20Functions%20Statistical%20Analysis.md) for more details. We have detailed the data collection and evaluation processes in a paper which is currently under review. When the review process is completed, we will publish all the data.
 
-## Requirements
-
- * Environments -- Please refer to [required_packages.txt](https://github.com/Seahymn2019/Function-level-Vulnerability-Dataset/blob/master/required_packages.txt)
- * Hardware -- A GPU with at least 4GB RAM is recommended.
  
 ## Instructions & Usage
 Unzip the zip file of this repository, one will see the following folders:
@@ -80,8 +75,4 @@ There are also some options available which are listed below:
  * [Dataset](https://github.com/Seahymn2019/Function-level-Vulnerability-Dataset/blob/master/Vulnerable%20Functions%20Statistical%20Analysis.md) -- containing vulnerable and non-vulnerable functions labeled/collected from 9 open-source projects and data statistics.
  * [Training and Evaluation Results](https://github.com/Seahymn2019/Function-level-Vulnerability-Dataset/blob/master/Training%20and%20Results.md) -- containing test results for reference.
 
-## Contact:
 
-You are welcomed to use/modify our code. Any bug report or improvement suggestions will be appreciated. Please kindly cite our paper (when it is published.) if you use the code/data in your work. For acquiring more data or inquiries, please contact: junzhang@swin.edu.au.
-
-Thanks!

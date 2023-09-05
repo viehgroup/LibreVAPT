@@ -1,12 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 21 19:38:06 2019
-
-@author: Seahymn, Daniel Lin
-    
-Train a Word2vec model on the code base (unsupervised).
-    
-"""
 
 import argparse
 import os
